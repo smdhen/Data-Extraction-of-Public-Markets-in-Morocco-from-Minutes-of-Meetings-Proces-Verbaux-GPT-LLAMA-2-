@@ -1,0 +1,7 @@
+PIL==9.0.1
+PyPDF2==2.12.1
+numpy==1.26.2
+pandas==1.4.2
+pdf2image==NA
+pytesseract==0.3.10
+selenium==4.5.0
