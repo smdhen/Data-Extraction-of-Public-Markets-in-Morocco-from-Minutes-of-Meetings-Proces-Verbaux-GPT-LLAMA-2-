@@ -1,6 +1,14 @@
 # Data Extraction of Public Markets in Morocco from Minutes of Meetings Proces-Verbaux (Pvs)
+## Table of contents
+- [Project Overview](#project-overview)
+- [Fallowed Tasks](#fallowed-tasks)
+- [Public markets Pvs' source](#public-markets-pvs'-source)
+- [Openai GPT-3](#openai-gpt-3)
+- [LLAMA 2 api](#llama-2-api)
+- [to run llama 2 localy](#to-run-llama-2-localy)
+- [Summry](#summry)
 
-## Overview 
+## Project Overview 
 
 In this Project, I'm going to collect information about public markets in Morocco. I'll start by gathering data and extracting text from minutes (PVs : procès verbal) or similar documents. Once we have the necessary information, we'll move on to analyzing these markets by answering a few questions. These questions include identifying the competitors, determining the market price, and understanding the purpose of the offer.
 
@@ -24,13 +32,13 @@ Language: Python (pandas, OCR-pytesseract, selenium, PyPDF2, replicate API, Open
 
 - [Here](https://www.marchespublics.gov.ma/index.php?page=entreprise.EntrepriseAdvancedSearch&AllAnn)
 
-### Openai 
+## Openai GPT-3
 
 - [api-key](https://platform.openai.com/api-keys)
 - [OpenAi doc](https://openai.com/)
 
-### LLAMA 2 api (Replicate - python )
-
+## LLAMA 2 api 
+(Replicate - python )
 - [Simple exemple on how to use Llama2](https://github.com/dataprofessor/llama2/blob/master/Llama2.ipynb)
 
 
@@ -41,7 +49,7 @@ Language: Python (pandas, OCR-pytesseract, selenium, PyPDF2, replicate API, Open
 - [replicate Blog](https://replicate.com/blog/run-llama-2-with-an-api?input=python#running-llama-2-with-python)
 
 
-### to run llama 2 localy 
+## to run llama 2 localy 
 
 - [huggingface doc](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/README.md)
 
